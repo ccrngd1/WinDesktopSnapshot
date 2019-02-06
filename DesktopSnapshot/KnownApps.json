@@ -1,0 +1,37 @@
+[
+	{
+		"FriendlyName" : "Visual Studio", 
+		"Class" :  "(.)*HwndWrapper(.)*",
+		"Caption":  "(.)*Microsoft Visual Studio(.)*"
+	},
+
+	{
+		"FriendlyName" : "Outlook", 
+		"Class" : "(.)*rctrl_renwnd32(.)*" ,
+		"Caption": "(.)*Outlook(.)*" 
+	} ,
+
+	{
+		"FriendlyName" : "Chrome", 
+		"Class": "Chrome_WidgetWin_1(.)*" ,
+		"Caption": "" 
+	},
+
+	{
+		"FriendlyName": "Slack",
+		"Class": "Chrome_WidgetWin_1(.)*",
+		"Caption": "(.)*Slack(.)*"
+	},
+
+	{
+		"FriendlyName": "Windows Explorer",
+		"Class": "(.)*CabinetWClass(.*)",
+		"Caption": "" 
+	},
+
+	{
+		"FriendlyName": "Notepad++",
+		"Class": "(.)*Notepad\\+\\+(.*)",
+		"Caption": "" 
+	}
+]
